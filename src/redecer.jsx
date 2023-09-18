@@ -51,5 +51,20 @@ export const reducer = (state, action) => {
             );
             return { ...state, totalItem, totalAmount };
 
+        case "ASC":
+            let asc = (state.item.sort((a, b) => {
+                return a.price - b.price
+            }))
+
+            return { ...state, item: asc };
+        case "DSC":
+            let dsc = (state.item.sort((a, b) => {
+                return b.price - a.price
+            }))
+
+            return { ...state, item: dsc };
+
+
+
     }
 }

@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 import '../App.css'
 import Products from './Products'
 import { Scrollbars } from 'react-custom-scrollbars-2';
-// import { products } from '../products'
+import CartFilters from './CartFilters'
 import ItemContext from '../context/ItemContext'
 
 
@@ -27,7 +27,8 @@ export default function CartItem() {
                 <h3>Shopping Cart</h3>
                 <p>You have <strong>{totalItem}</strong> items in Shopping Cart </p>
             </div>
-            {/* <CheckCartLength /> */}
+            <CartFilters />
+
             <Scrollbars style={scrollBarStyle}>
                 {
                     item.map((item, id) => {
@@ -42,5 +43,6 @@ export default function CartItem() {
                 <button className="btn" onClick={clearCart}>Clear Cart</button>
             </div>
         </>
+
     )
 }

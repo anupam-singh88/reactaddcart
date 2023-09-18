@@ -37,6 +37,23 @@ const ItemState = (props) => {
         })
     }
 
+    const sortAsc = () => {
+        // return state.item = state.item.sort((a, b) => {
+        //     return a.price - b.price
+        // })
+
+        return dispatch({
+            type: 'ASC',
+            // payload: id
+        })
+    }
+    const sortDsc = () => {
+        return dispatch({
+            type: 'DSC',
+            // payload: id
+        })
+    }
+
     useEffect(() => {
         dispatch({ type: "GET_TOTAL" });
         // console.log("Awesome");
@@ -45,7 +62,7 @@ const ItemState = (props) => {
 
     return (
         <div>
-            <ItemContext.Provider value={{ ...state, deleteItem, incrementQty, decrementQty, clearCart }}>
+            <ItemContext.Provider value={{ ...state, deleteItem, incrementQty, decrementQty, clearCart, sortAsc, sortDsc }}>
                 {props.children}
             </ItemContext.Provider>
         </div>

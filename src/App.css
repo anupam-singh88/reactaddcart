@@ -106,3 +106,10 @@ body {
   top: -8px;
   left: 1px;
 }
+
+#sorting {
+  padding: 2px;
+  border: 1px solid #f2d0d0;
+  border-radius: 4px;
+  margin: 5px 0;
+}
