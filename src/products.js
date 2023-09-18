@@ -9,7 +9,7 @@ export const products = [
     },
     {
         id: 2,
-        title: "Samsung M21",
+        title: "M21",
         description: "white in color",
         price: "2300",
         img: "https://images.pexels.com/photos/47261/pexels-photo-47261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
@@ -17,7 +17,7 @@ export const products = [
     },
     {
         id: 3,
-        title: "Redmi 9",
+        title: "REALME",
         description: "black in color",
         price: "45000",
         img: "https://images-na.ssl-images-amazon.com/images/I/71A9Vo1BatL._SL1500_.jpg",
@@ -33,15 +33,15 @@ export const products = [
     },
     {
         id: 5,
-        title: "Samsung S21",
-        description: "black in color",
+        title: "Oppo",
+        description: "red in color",
         price: "215478",
         img: "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
         quantity: 1,
     },
     {
         id: 6,
-        title: "Redmi 9",
+        title: "Redmi 19",
         description: "black in color",
         price: "500",
         img: "https://images-na.ssl-images-amazon.com/images/I/71A9Vo1BatL._SL1500_.jpg",
@@ -49,7 +49,7 @@ export const products = [
     },
     {
         id: 7,
-        title: "Samsung S21",
+        title: "Samsung ultra",
         description: "black in color",
         price: "65124",
         img: "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
@@ -57,7 +57,7 @@ export const products = [
     },
     {
         id: 8,
-        title: "Iphone 12",
+        title: "Iphone 15",
         description: "Best mobile ever",
         price: "78956",
         img: "https://images-na.ssl-images-amazon.com/images/I/71hIfcIPyxS._SL1500_.jpg",
@@ -65,7 +65,7 @@ export const products = [
     },
     {
         id: 9,
-        title: "Samsung S21",
+        title: "POCO",
         description: "black in color",
         price: "25000",
         img: "https://images.pexels.com/photos/404280/pexels-photo-404280.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",

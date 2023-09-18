@@ -63,6 +63,18 @@ export const reducer = (state, action) => {
             }))
 
             return { ...state, item: dsc };
+        case "A2Z":
+            let a2z = (state.item.sort((a, b) => {
+                return a.title.localeCompare(b.title);
+            }))
+            console.log(a2z)
+            return { ...state, item: a2z };
+        case "Z2A":
+            let z2a = (state.item.sort((a, b) => {
+                return b.title.localeCompare(a.title);
+            }))
+
+            return { ...state, item: z2a };
 
 
 
