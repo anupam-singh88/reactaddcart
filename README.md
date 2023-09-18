@@ -28,3 +28,4 @@ This project is a React.js cart application with all the functionality of an e-c
 6. Use the application to browse items, add them to your cart, and manage your cart.
 
 ## URL
+https://react-add-to-cart-14471.web.app/
