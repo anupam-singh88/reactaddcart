@@ -1,5 +1,10 @@
 # ReactAddToCart App
 
+## URL
+https://react-add-to-cart-14471.web.app/
+
+![image](https://github.com/anupam-singh88/reactaddcart/assets/89381022/a6691369-2e69-40f2-8131-89d0536b8818)
+
 ## Description
 This project is a React.js cart application with all the functionality of an e-commerce website. It includes features like total price calculation, increasing and decreasing item count, fetching data dynamically, filters like price low to high or vice-versa, showing items as per the budget range, clear cart functionality, and dynamic alerts on each operation using react-toastify.
 
@@ -27,5 +32,3 @@ This project is a React.js cart application with all the functionality of an e-c
 5. Open your browser and go to `http://localhost:3000`.
 6. Use the application to browse items, add them to your cart, and manage your cart.
 
-## URL
-https://react-add-to-cart-14471.web.app/
